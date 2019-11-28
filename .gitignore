@@ -1,0 +1,7 @@
+alphasparkenv/
+*.iml
+*.xml
+*.pyc
+code
+/coverage
+__pycache__
