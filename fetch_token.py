@@ -1,4 +1,4 @@
-# for security reason the tokens used for the project is saved somewhere else and is not uploaded to GitHub.
+# for security reason , the tokens used for the project is saved somewhere else and is not uploaded to GitHub.
 # this utility class helps to fetch it
 
 import json
