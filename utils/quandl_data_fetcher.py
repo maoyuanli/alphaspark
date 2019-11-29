@@ -1,4 +1,4 @@
-from fetch_token import TokenFetcher
+from utils.fetch_token import TokenFetcher
 import quandl
 
 

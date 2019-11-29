@@ -25,6 +25,6 @@ class TokenFetcher():
         cur_path = os.path.dirname(__file__)
         par_path = os.path.dirname(cur_path)
         while os.path.isfile(os.path.join(par_path, self._token_file)) == False:
-            par_path = os.path.dirname(os.path.dirname(par_path))
+            par_path = os.path.dirname(par_path)
         token = json.load(open(os.path.join(par_path, self._token_file), 'r'))
         return token[key]

@@ -1,6 +1,5 @@
-from spark_initializer import SparkInitializer
+from utils.spark_initializer import SparkInitializer
 SparkInitializer.init_spark()
-import pyspark
 from pyspark.sql.types import *
 
 
