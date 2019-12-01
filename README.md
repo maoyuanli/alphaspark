@@ -1,3 +1,4 @@
-# alphaspark
-example of ETL using Spark
-Consumes Quandl API and prepares date for Spark
+# AlphaSpark
+An example of ETL using Spark
+
+Consume Quandl API and transform data for Spark
